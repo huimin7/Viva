@@ -33,9 +33,6 @@ public class Q4 {
         
                 
         for(int i=0;i<password.length();i++){
-            if(password.length()<8){
-                strength = "Weak";
-                break;}
             if(Character.isUpperCase(x[i]))
                 upper = upper+1;
             else if(Character.isLowerCase(x[i]))
@@ -46,9 +43,9 @@ public class Q4 {
                 digit++;
         }    
                 
-        if(password.length()>8 && upper>0 && lower>0 && special>0 && digit>0)
+        if(password.length()>=8 && upper>0 && lower>0 && special>0 && digit>0)
                 strength ="Strong";
-        else if(password.length()>6 && upper>0 && lower>0 && special>0)
+        else if(password.length()>=6 && upper>0 && lower>0 && special>0)
                 strength = "Moderate";
         else
                 strength = "Weak";
