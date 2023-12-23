@@ -110,16 +110,7 @@ public class Library {
 
 
 
-//    public static void main(String[] args) {
-//        Library lib=new Library();
-//        
-//            Book book1 = new Book("The Standard Book of Spells","Miranda Goshawk", "9452297");
-//            Book book2 = new Book("Advanced Potion-Making","Libatius Borage", "4826972");
-//            
-//            lib.addBook(book1);
-//            lib.addBook(book2);
-//            
-//    }
+
     
     
     
